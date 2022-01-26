@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.result-content{
+    position: relative;
+    left: 380px;
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    background-color: rgb(228, 221, 210);
+}
+.result-title{
+    position: relative;
+    color: black;
+    left: 140px;
+}
+.result-value{
+    display: flex;
+    position: relative;
+    left: 185px;
+    font-size: x-large;
+}
+.final-call{
+    display: flex;
+    position: relative;
+    left: 70px;
+    font-size: 30px;
+}
+.back-to-home{
+    position: relative;
+    left: 150px;
+}
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+/* For Sliding CSS */
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 10%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.description{
+    font-size: medium;
+    text-align: center;
+    margin: auto 70px 10px 70px;
+}
+.get-button {
+     position: relative;
+}
+.get-button .btn {
+    position: relative;
+    left: 450px;
+    width: 250px;
+}
+.back-to-home-button .btn{
+    position: relative;
+    left: 420px;
+    width: 250px;
+    margin-top: 20px;
+}
+.quiz-select-title{
+    color: rgb(122, 81, 235);
+    line-height: 20%;
+    text-align: center;
+}
+/* FireWorks CSS Here  */
+
+/* On smaller screens, decrease text size */
+ 
+
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .slideshow-container{
+        justify-content: center;
+    }
+
+    .description{
+        justify-content: center;
+    }
+    .get-button .btn{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        right: 40px;
+    }
+    .result-content{
+        position: relative;
+        left: 0%;
+        width: 310px;
+    }
+    .result-content .result-title{
+        position: relative;
+        left: 30%;
+    }
+    .result-content .result-value{
+        position: relative;
+        left: 40%;
+    } 
+    .result-content .final-call{
+        position: relative;
+        left: 5%;
+    }
+    .result-content .back-to-home{
+        position: relative;
+        left: 35%;
+    }
+}
+

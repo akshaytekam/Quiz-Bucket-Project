@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ds_index.css">
+    <script src="./ds_index.js" defer></script>
+    <title>Quiz Page</title>
+</head>
+<body>
+    <div class="title">The Quiz</div>
+    <div class="parent-content">
+        <form id="quiz-form">
+            <div class="quiz-item-wrapper">
+            <h3>Q1. In order traversal of binary search tree will produce?</h3>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option1">unsorted list</label>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option2">reverse of input</label>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option3">sorted list</label>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option4">none of the above</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q2. Stack is used for?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option1">CPU Resource Allocation</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question2" value="option2">Breadth First Traversal</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option3">Recursion</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option4">None of the above</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q3. Travelling salesman problem is an example of?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question3" value="option1">Dynamic Algorithm</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option2">Greedy Algorithm</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option3">Recursive Approach</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option4">Divide & Conquer</label>
+            </div><div class="quiz-item-wrapper">
+                <h3>Q4. Maximum degree of any vertex in a simple graph of vertices n is?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option1">2n - 1</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option2">n</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option3">n + 1</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option4">n - 1</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q5. Quick sort running time depends on the selection o?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option1">size of array</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option2">pivot element</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option3">sequence of values</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option4">none of the above!</label>
+            </div>
+            <a href="./result_page.html">
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="checkButton()">Submit</button>
+                <!-- <input id="submit-btn" type="submit" onclick="checkButton()" value="submit"> -->
+            </a>
+            </form>
+    </div>
+</body>
+</html>

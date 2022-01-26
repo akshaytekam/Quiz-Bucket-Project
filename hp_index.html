@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hp_index.css">
+    <script src="./hp_index.js" defer></script>
+    <title>Quiz Page</title>
+</head>
+<body>
+    <div class="title">The Quiz</div>
+    <div class="parent-content">
+        <form id="quiz-form">
+            <div class="quiz-item-wrapper">
+            <h3>Q1. Which was not one of Voldemort's Horcruxes?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question1" value="option1">Harry</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question1" value="option2">Nagini</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question1" value="option3">Helga's Diadem</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question1" value="option4">Tom Riddle's Diary</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q2. Which of these are not one of Hagrid's many pets?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option1">Grawp</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question2" value="option2">Fluffy</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option3">Aragog</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option4">Noberta</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q3. Which class did Severus Snape always want to teach?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question3" value="option1">Potions</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option2">Charms</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option3">Defense Against Dark Arts</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option4">Transfiguration</label>
+            </div><div class="quiz-item-wrapper">
+                <h3>Q4. Which Hogwarts house did Moaning Myrtle belong in?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option1">Gryffindor</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option2">Slytherin</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option3">Ravenclaw</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option4">Hufflepuff</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q5. What class did Neville end up teaching at Hogwarts?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option1">Astronomy</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option2">Herbology</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option3">Charms</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option4">Muggle Studies</label>
+            </div>
+            <a href="./result_page.html">
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="checkButton()">Submit</button>
+                <!-- <input id="submit-btn" type="submit" onclick="checkButton()" value="submit"> -->
+            </a>
+            </form>
+    </div>
+</body>
+</html>

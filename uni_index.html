@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./uni_index.css">
+    <script src="./uni_index.js" defer></script>
+    <title>Quiz Page</title>
+</head>
+<body>
+    <div class="title">The Quiz</div>
+    <div class="parent-content">
+        <form id="quiz-form">
+            <div class="quiz-item-wrapper">
+            <h3>Q1. How much of the universe is in a plasma state (in percentage)?</h3>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option1">99</label>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option2">75</label>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option3">50</label>
+            <label class="input-wrapper">
+                <input class="option" type="radio" name="question1" value="option4">25</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q2. On what planet is the Great Red Spot?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option1">Jupiter.</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question2" value="option2">Earth</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option3">Venus</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question2" value="option4">Mars</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q3. What do scientists use to search for life in distant space?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question3" value="option1">librarians</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option2">giant antennae.</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option3">space bloodhounds</label>
+            <label class="input-wrapper"><input class="option" type="radio" name="question3" value="option4">the Internet</label>
+            </div><div class="quiz-item-wrapper">
+                <h3>Q4. What is the most volcanically active body in our solar system?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option1">a moon.</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option2">an asteroid</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option3">a planet</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question4" value="option4">a comet</label>
+            </div>
+            <div class="quiz-item-wrapper">
+            <h3>Q5.What planet is closest to Saturn?</h3>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option1">Jupiter.</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option2">Uranus</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option3">Earth</label>
+            <label class="input-wrapper">
+            <input class="option" type="radio" name="question5" value="option4">Venus</label>
+            </div>
+            <a href="./result_page.html">
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="checkButton()">Submit</button>
+                <!-- <input id="submit-btn" type="submit" onclick="checkButton()" value="submit"> -->
+            </a>
+            </form>
+    </div>
+</body>
+</html>
